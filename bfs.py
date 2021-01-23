@@ -9,6 +9,7 @@ from matplotlib.patches import Rectangle
 
 def saveImage(p):
     millis = int(round(time.time() * 1000))
+    # 需要提前准备好/img目录
     filename = './img/' + str(millis) + '.png'
     p.savefig(filename)
 
