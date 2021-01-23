@@ -1,10 +1,10 @@
 import random
 
 # 定义棋盘宽度
-w = 1000
+w = 100
 
 # 定义棋盘高度
-h = 1000
+h = 50
 
 # 定义起点横坐标（列）
 start_x = 0
@@ -13,10 +13,10 @@ start_x = 0
 start_y = 0
 
 # 定义终点横坐标（列）
-goal_x = 0
+goal_x = 99
 
 # 定义终点纵坐标（行）
-goal_y = 2
+goal_y = 49
 
 # 用整数定义墙壁数量比例（0最高）
 obstacle_ratio = 2
