@@ -15,7 +15,7 @@ def saveImage(p):
 
 
 def colorGradient(current_step, height, width):
-    # 根据高度和宽度调整适用于颜色渐变的最大最大步数
+    # 根据高度和宽度调整适用于颜色渐变的最大步数
     gradient_step_threshold = (height + width) * 1.1
 
     color_start = [0, 0, 1.0]  # color: b(blue)
